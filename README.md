@@ -81,6 +81,6 @@ This repository contains Jupyter Notebooks and Python/C++ scripts developed for 
 
 ## Exercise 12: Image Recognition with Deep and Convolutional Neural Networks
 
-*   **MNIST Classification with DNN**: Building a Deep Neural Network using Keras to classify handwritten digits (from $0$ to $9$) using the MNIST dataset, which contains $28\times 28$ pixel images[cite: 36]. The data is reshaped, rescaled to a [0, 1] interval, and categorical crossentropy is used alongside the SGD optimizer to train the model over several epochs[cite: 36].
-*   **Convolutional Neural Networks (CNN)**: Upgrading the network architecture to a Convolutional Neural Network (CNN)[cite: 36]. This approach utilizes `Conv2D`, `MaxPooling2D`, and `Flatten` layers to take advantage of local spatial correlations and translational invariance in the images, thereby improving classification accuracy[cite: 36].
-*   **Custom Image Testing**: Evaluating the trained CNN's real-world performance by testing it on custom handwritten digits created using the GIMP application[cite: 36].
+*   **MNIST Classification with DNN**: Building a Deep Neural Network using Keras to classify handwritten digits (from $0$ to $9$) using the MNIST dataset, which contains $28\times 28$ pixel images. The data is reshaped, rescaled to a [0, 1] interval, and categorical crossentropy is used alongside the SGD optimizer to train the model over several epochs.
+*   **Convolutional Neural Networks (CNN)**: Upgrading the network architecture to a Convolutional Neural Network (CNN). This approach utilizes `Conv2D`, `MaxPooling2D`, and `Flatten` layers to take advantage of local spatial correlations and translational invariance in the images, thereby improving classification accuracy.
+*   **Custom Image Testing**: Evaluating the trained CNN's real-world performance by testing it on custom handwritten digits created using the GIMP application.
